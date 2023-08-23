@@ -23,7 +23,7 @@ public class Main {
                 if(line.equalsIgnoreCase("336")){
                     break; // if an input is empty, break
                 }
-                input += line;
+                input += line + "\n";
             }
             reader.close();
             String o = input.replaceAll("<c.textWhite>", "");
